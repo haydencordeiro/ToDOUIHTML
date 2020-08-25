@@ -63,8 +63,8 @@ main {
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  overflow: auto;
-  /* padding-top: 1rem; */
+  overflow: scroll;
+  padding-bottom: 3rem;
 }
 .item {
   margin-top: 0.6rem;
@@ -77,7 +77,7 @@ main {
   border-radius: 1.2rem;
   overflow: hidden;
 }
-.deleteshow {
+.pop {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -85,7 +85,7 @@ main {
   border-radius: 0rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  overflow: hidden;
+  overflow: visible;
   margin-top: 0rem;
   width: 80%;
   height: 3rem;
@@ -93,11 +93,9 @@ main {
 
 .deleteshow h3 {
   display: block;
-  position: relative;
-  top: 0px;
-  left: 0px;
+  height: 2rem;
   text-align: center;
-  margin-top: 1.4rem;
+  margin-top: 0.8rem;
 }
 
 .deletehidden {
