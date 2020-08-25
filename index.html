@@ -1,53 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://use.fontawesome.com/fffd15845b.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <script src="index.js"></script>
-    <title>List</title>
-  </head>
-  <body>
-    <div class="container">
-      <nav>
-        <h1 class="logo">ToDO</h1>
-        <div class="right-nav">
-          <ul>
-            <li>Login</li>
-          </ul>
-        </div>
-      </nav>
-      <main>
-        <div class="itemContainer">
-          <div class="item notdone">
-            <h3>
-                <a class ="title" href="javascript:Delete()">LINK</a>
-            </h3>
-            <a class ="iconC"> <i class="fa fa-check" aria-hidden="true"></i></a>
-            
-            
-          </div>
-          <div class="deletehidden">
-            <h3 >Delete</h3>
 
-          </div>
-          
-          
-          <div class="item done">
-            <h3>Headphones</h3>
-            <a><i class="fa fa-check" aria-hidden="true"></i></a>
-          </div>
-          <!--     //////////////////////////// -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://use.fontawesome.com/fffd15845b.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <script src="index.js"></script>
+  <title>List</title>
+</head>
 
-      </main>
-      <div class="addbutton">
-        <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
+<body>
+  <div class="container">
+    <nav>
+      <h1 class="logo">ToDO</h1>
+      <div class="right-nav">
+        <ul>
+          <li>Login</li>
+        </ul>
       </div>
+    </nav>
+    <main>
+      <div class="itemContainer">
+        <div class="item notdone">
+          <h3>
+            <a id="2" class="title" onclick="Delete(this)" href="#">Headphones</a>
+          </h3>
+          <a class="iconC"> <i class="fa fa-check" aria-hidden="true"></i></a>
+        </div>
+        <div class="deletehidden 2">
+          <h3 class="deletehidden 2">Delete</h3>
+        </div>
+
+
+
+        <div class="item notdone">
+          <h3>
+            <a id="3" class="title" onclick="Delete(this)" href="#">Headphones</a>
+          </h3>
+          <a class="iconC"> <i class="fa fa-check" aria-hidden="true"></i></a>
+        </div>
+        <div class="deletehidden 3">
+          <h3 class="deletehidden 3">Delete</h3>
+        </div>
+
+
+        <div class="item notdone">
+          <h3>
+            <a id="4" class="title" onclick="Delete(this)" href="#">Headphones</a>
+          </h3>
+          <a class="iconC"> <i class="fa fa-check" aria-hidden="true"></i></a>
+        </div>
+        <div class="deletehidden 4">
+          <h3 class="deletehidden 4">Delete</h3>
+        </div>
+
+
+
+        <div class="item notdone">
+          <h3>
+            <a id="5" class="title" onclick="Delete(this)" href="#">Headphones</a>
+          </h3>
+          <a class="iconC"> <i class="fa fa-check" aria-hidden="true"></i></a>
+        </div>
+        <div class="deletehidden 5">
+          <h3 class="deletehidden 5">Delete</h3>
+        </div>
+
+
+
+        <div class="item notdone">
+          <h3>
+            <a id="6" class="title" onclick="Delete(this)" href="#">Headphones</a>
+          </h3>
+          <a class="iconC"> <i class="fa fa-check" aria-hidden="true"></i></a>
+        </div>
+        <div class="deletehidden 6">
+          <h3 class="deletehidden 6">Delete</h3>
+        </div>
+
+
+        <div class="item done">
+          <h3>
+            <a id="7" class="title" onclick="Delete(this)" href="#">Headphones</a>
+          </h3>
+          <a class="iconC"> <i class="fa fa-check" aria-hidden="true"></i></a>
+        </div>
+        <div class="deletehidden 7">
+          <h3 class="deletehidden 7">Delete</h3>
+        </div>
+
+
+
+        <div class="item done">
+          <h3>
+            <a id="8" class="title" onclick="Delete(this)" href="#">Headphones</a>
+          </h3>
+          <a class="iconC"> <i class="fa fa-check" aria-hidden="true"></i></a>
+        </div>
+        <div class="deletehidden 8">
+          <h3 class="deletehidden 8">Delete</h3>
+        </div>
+
+
+        <div class="item done">
+          <h3>
+            <a id="9" class="title" onclick="Delete(this)" href="#">Headphones</a>
+          </h3>
+          <a class="iconC"> <i class="fa fa-check" aria-hidden="true"></i></a>
+        </div>
+        <div class="deletehidden 9">
+          <h3 class="deletehidden 9">Delete</h3>
+        </div>
+
+
+        <!-- <div class="item notdone">
+          <h3>
+            <a id="10" class="title" onclick="Delete(this)" href="#">Headphones</a>
+          </h3>
+          <a class="iconC"> <i class="fa fa-check" aria-hidden="true"></i></a>
+        </div>
+        <div class="deletehidden 10">
+          <h3 class="deletehidden 10">Delete</h3>
+        </div>
+
+
+        <div class="item notdone">
+          <h3>
+            <a id="11" class="title" onclick="Delete(this)" href="#">Headphones</a>
+          </h3>
+          <a class="iconC"> <i class="fa fa-check" aria-hidden="true"></i></a>
+        </div>
+        <div class="deletehidden 11">
+          <h3 class="deletehidden 11">Delete</h3>
+        </div>
+
+
+        <div class="item notdone">
+          <h3>
+            <a id="12" class="title" onclick="Delete(this)" href="#">Headphones</a>
+          </h3>
+          <a class="iconC"> <i class="fa fa-check" aria-hidden="true"></i></a>
+        </div>
+        <div class="deletehidden 12">
+          <h3 class="deletehidden 12">Delete</h3>
+        </div> -->
+
+
+    </main>
+    <div class="addbutton">
+      <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

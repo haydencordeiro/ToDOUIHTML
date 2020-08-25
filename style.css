@@ -90,11 +90,25 @@ main {
   width: 80%;
   height: 3rem;
 }
-.deletehidden {
-  width: 0%;
-  display: none;
-  transition: width 2s;
+
+.deleteshow h3 {
+  display: block;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  margin-top: 1.4rem;
 }
+
+.deletehidden {
+  width: 0px;
+  display: none;
+}
+
+.deletehidden h3 {
+  display: none;
+}
+
 .notdone h3 {
   font-size: x-large;
   width: 70%;
@@ -117,7 +131,7 @@ main {
   border-radius: 1rem;
   text-decoration: none;
 }
-.done a {
+.done .iconC {
   width: 30%;
   color: white;
   padding-top: 0.1rem;

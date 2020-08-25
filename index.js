@@ -1,10 +1,12 @@
-function Delete() {
-  try {
-    var firstdel = document.getElementsByClassName("deletehidden")[0];
-    firstdel.className = "deleteshow";
-  } catch {
-    var firstdel = document.getElementsByClassName("deleteshow")[0];
-    firstdel.className = "deletehidden";
+function Delete(ele) {
+  var temp = document.getElementsByClassName(ele.id)[0];
+  var temp2 = document.getElementsByClassName(ele.id)[1];
+  if (temp.className == "deletehidden " + ele.id) {
+    temp.className = "deleteshow " + ele.id;
+    temp2.className = "deleteshow " + ele.id;
+  } else {
+    temp.className = "deletehidden " + ele.id;
+    temp2.className = "deletehidden " + ele.id;
   }
 }
 function myFunction() {
