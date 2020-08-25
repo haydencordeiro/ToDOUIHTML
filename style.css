@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #57b0f5;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  padding: 1rem;
+  background-color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+nav h1 {
+  width: 80%;
+  /* text-align: center; */
+  padding-left: 1rem;
+}
+nav ul {
+  width: 20%;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+nav li {
+  padding-left: 1rem;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+.container {
+  background-color: #ebedf1;
+  margin: auto;
+  width: 85%;
+  height: 85%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemContainer {
+  margin-top: 1rem;
+  /* background-color: green; */
+  height: 63vh;
+
+  display: flex;
+  width: 90%;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+  /* padding-top: 1rem; */
+}
+.item {
+  margin: 0.4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  min-height: 3rem;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+.notdone h3 {
+  font-size: x-large;
+}
+
+.done h3 {
+  text-decoration: line-through;
+  font-size: x-large;
+}
+.notdone a {
+  padding-top: 0.2rem;
+  text-align: center;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-color: 1px solid black;
+  box-shadow: 0rem 0rem 0rem 0.2rem rgba(0, 0, 0, 0.6);
+  background-color: white;
+  border-radius: 1rem;
+}
+.done a {
+  color: white;
+  padding-top: 0.1rem;
+  text-align: center;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-color: 1px solid black;
+  box-shadow: 0rem 0rem 0rem 0.2rem rgba(0, 200, 0, 0.6);
+  background-color: #64dec3;
+  border-radius: 1rem;
+}
+.addbutton {
+  position: relative;
+  bottom: 1.5rem;
+  left: 43%;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 1.5rem;
+  background-color: #5ca8e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: 1px solid white;
+  /* box-shadow: 0rem 0rem 0rem 0.2rem rgba(0, 0, 0, 0.6); */
+}
+.addbutton a {
+  color: white;
+  font-size: x-large;
+}
