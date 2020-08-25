@@ -56,7 +56,7 @@ main {
 .itemContainer {
   margin-top: 1rem;
   /* background-color: green; */
-  height: 63vh;
+  height: 65vh;
 
   display: flex;
   width: 90%;
@@ -67,7 +67,7 @@ main {
   /* padding-top: 1rem; */
 }
 .item {
-  margin: 0.4rem;
+  margin-top: 0.6rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -77,16 +77,36 @@ main {
   border-radius: 1.2rem;
   overflow: hidden;
 }
-
+.deleteshow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightpink;
+  border-radius: 0rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  overflow: hidden;
+  margin-top: 0rem;
+  width: 80%;
+  height: 3rem;
+}
+.deletehidden {
+  width: 0%;
+  display: none;
+  transition: width 2s;
+}
 .notdone h3 {
   font-size: x-large;
+  width: 70%;
 }
 
 .done h3 {
   text-decoration: line-through;
   font-size: x-large;
+  width: 70%;
 }
-.notdone a {
+.notdone .iconC {
+  width: 30%;
   padding-top: 0.2rem;
   text-align: center;
   height: 1.5rem;
@@ -95,8 +115,10 @@ main {
   box-shadow: 0rem 0rem 0rem 0.2rem rgba(0, 0, 0, 0.6);
   background-color: white;
   border-radius: 1rem;
+  text-decoration: none;
 }
 .done a {
+  width: 30%;
   color: white;
   padding-top: 0.1rem;
   text-align: center;
@@ -109,7 +131,7 @@ main {
 }
 .addbutton {
   position: relative;
-  bottom: 1.5rem;
+  bottom: 3rem;
   left: 43%;
   height: 3rem;
   width: 3rem;
@@ -124,4 +146,10 @@ main {
 .addbutton a {
   color: white;
   font-size: x-large;
+}
+.title {
+  color: red;
+  color: black;
+  text-decoration: none;
+  border-style: none;
 }
